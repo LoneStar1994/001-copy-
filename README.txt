@@ -1,6 +1,8 @@
 Manuel Eduardo Martínez Vera -- LoneStar  (zatch15@hotmail.com)  -- @slack/phx;elixir;nerves||general "LoneStar"
 Let me know any doubt or issue :D Regards! (English && Spanish)
 
+https://github.com/Aircloak/phoenix_gen_socket_client <--- Original AirCloak code :)
+
 
 How it works?
 
