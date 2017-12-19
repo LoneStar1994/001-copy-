@@ -1,9 +1,34 @@
+How it works?
+
+```
+@ server folder you run:
+mix deps.get <-- updates your phx deps
+&&
+mix ecto.create <-- creates databasse
+&&
+mix ecto.migrate <-- creates table on data base
+
+Then:
+mix phx.server  <-- run the server! :3
+```
+
+``` 
+@client folder:
+mix deps.get
+&&
+iex -S mix <- For usage
+```
+
+start the client with:
+
+{:ok, pid}=Client.start_link()
+
 This is an open source code! Go ahead and use it!
 
 BUT!!! Im not responsible for the misuse of anykind,
 Also, If your computer blows up in a bunch of small pieces is not my fault :)
 
-Thank a lot to Mr. Saša Juric (sasa1977 @slack). Without his help this could not be possible
+Thank a lot to Mr. SaÅ¡a Juric (sasa1977 @slack). Without his help this could not be possible
 
 Regards!! :D
 
