@@ -3,6 +3,22 @@ Let me know any doubt or issue :D Regards! (English && Spanish)
 
 https://github.com/Aircloak/phoenix_gen_socket_client <--- Original AirCloak code :)
 
+WHAT DOES THIS DOES!?
+
+######################################################
+This is a protocol of communication between a Phoenix Server and an Elixir Client
+
+It has no GUI, all the interaction is being taken at the console.
+
+You have a set of instructions at the "Server" channel, the client sends petitions 
+at the different instructions that are inside the server. Petitions like "New", "Show", etc.
+
+So the server takes data to a data base, it could be a insertion, edition, addition or erasing.
+
+"Why is it the big deal?" Becuase it interacts using the "wi-fi" you could implement these instructions on Nerves
+or on a PC console project :) All thanks to the Aircloak connection protocol.
+
+######################################################
 
 How it works?
 
